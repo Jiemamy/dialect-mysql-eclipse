@@ -2,12 +2,12 @@
 <?eclipse version="3.2"?>
 <plugin>
 
-   <extension point="org.jiemamy.eclipse.core.dialects">
-	  <dialect class="org.jiemamy.dialect.mysql.MySqlDialect">
+    <extension point="org.jiemamy.eclipse.core.dialects">
+      <dialect class="org.jiemamy.dialect.mysql.MySqlDialect">
         <additionalTab
               target="org.jiemamy.eclipse.core.ui.editor.diagram.node.table.TableEditDialog"
               class="org.jiemamy.eclipse.dialect.mysql.TableEditDialogOptionTab" />
       </dialect>
-   </extension>
+    </extension>
 
 </plugin>
