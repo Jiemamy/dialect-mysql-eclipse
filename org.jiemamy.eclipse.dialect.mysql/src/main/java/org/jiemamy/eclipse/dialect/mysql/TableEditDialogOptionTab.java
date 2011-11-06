@@ -44,7 +44,7 @@ public class TableEditDialogOptionTab extends AbstractTab {
 	
 	private Combo cmbEngine;
 	
-
+	
 	/**
 	 * インスタンスを生成する。
 	 * 

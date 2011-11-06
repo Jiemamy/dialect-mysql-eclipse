@@ -53,7 +53,7 @@ public class MySqlTypeParameterHandler implements TypeParameterHandler {
 	
 	private MySqlDialect dialect = new MySqlDialect();
 	
-
+	
 	public void createControl(JmColumn column, Composite composite, EditListener editListener) {
 		logger.trace(LogMarker.LIFECYCLE, "createControl");
 		this.column = column;
