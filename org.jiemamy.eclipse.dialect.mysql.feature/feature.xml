@@ -2,7 +2,7 @@
 <feature
       id="org.jiemamy.eclipse.dialect.mysql.feature"
       label="%featureName"
-      version="0.3.1.qualifier"
+      version="0.3.2.qualifier"
       provider-name="%providerName"
       plugin="org.jiemamy.eclipse.dialect.mysql">
 
@@ -22,6 +22,10 @@
       <update label="%updateSiteName" url="http://eclipse.jiemamy.org/release/"/>
    </url>
 
+   <includes
+         id="org.jiemamy.eclipse.dialect.mysql.source"
+         version="0.0.0"/>
+
    <requires>
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.jiemamy.eclipse.core"/>
@@ -33,9 +37,5 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
-   <includes
-         id="org.jiemamy.eclipse.dialect.mysql.source"
-         version="0.0.0"/>
 
 </feature>
