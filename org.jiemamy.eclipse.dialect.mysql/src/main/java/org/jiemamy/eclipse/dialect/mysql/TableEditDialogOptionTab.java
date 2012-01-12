@@ -89,6 +89,8 @@ public class TableEditDialogOptionTab extends AbstractTab {
 		if (StringUtils.isEmpty(cmbEngine.getText()) == false) {
 			StandardEngine engine = StandardEngine.valueOf(cmbEngine.getText());
 			table.putParam(MySqlParameterKeys.STORAGE_ENGINE, engine);
+		} else {
+			table.removeParam(MySqlParameterKeys.STORAGE_ENGINE);
 		}
 	}
 	
